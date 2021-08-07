@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "open sans", sans-serif;
+}
+input :focus {
+  outline: none;
+}
+textarea :focus {
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+
+.moj {
+  width: 1800px;
+}
+
+.moj img {
+  width: 170px;
+  float: left;
+  margin-left: 100px;
+}
+
+.moj .new {
+  width: 400px;
+
+  margin-top: 45px;
+  margin-left: 1200px;
+  font-size: medium;
+}
+
+.moj.new a {
+  color: blue;
+}
+.moj .new a:nth-child(1) {
+  color: rgb(26, 184, 47);
+}
+
+.moj .main {
+  width: 550px;
+
+  margin: 180px 530px 70px;
+
+  position: relative;
+}
+
+.moj .main input {
+  width: 100%;
+  font-size: 15px;
+  padding: 15px 10px;
+  outline: none;
+  border: 1px solid rgb(161, 159, 159);
+}
+.moj .main i {
+  width: 7%;
+  position: absolute;
+  top: 18px;
+  right: 0px;
+  bottom: 0px;
+  color: rgb(161, 159, 159);
+}
+
+.moj .other {
+  width: 1200px;
+  margin-left: 450px;
+}
+
+.moj .other img {
+  width: 50px;
+  display: inline;
+}
+
+.moj .other p {
+  font-size: 14px;
+  float: left;
+  margin-top: 12px;
+  margin-right: 50px;
+  color: rgb(116, 114, 114);
+}

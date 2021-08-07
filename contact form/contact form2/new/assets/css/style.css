@@ -1,0 +1,92 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "open sans", sans-serif;
+  }
+  input :focus {
+    outline: none;
+  } 
+  textarea :focus {
+    outline: none;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  li {
+    list-style: none;
+  }
+
+  body {
+
+
+ background-image:
+ url(../img/bangladesh-places-04-1024x683.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100vh;
+width: 100%;
+}
+
+.contact {
+width: 450px;
+height: 350px;
+padding: 50px;
+background-color: black;
+position: absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+margin: 120px auto ;
+text-align: center;
+}
+
+.contact h1 {
+text-align: center;
+font-size: 40px;
+font-weight: bolder;
+ color: red;
+font-family: cursive;
+}
+
+.contact form input ,
+.contact form textarea {
+display: block;
+width: 100%;
+padding: 12px 6px;
+box-sizing: border-box;
+margin-top: 10px;
+border: 1px solid rgb(59, 34, 34);
+font-size: 16px;
+outline: none;
+font-family: cursive;
+
+}
+
+
+.contact form textarea {
+height: 100px;
+
+}
+.contact form button  {
+padding: 10px 30px;
+margin-top: 30px ;
+display: inline-block;
+cursor: pointer;
+font-weight: bold;
+background-image: linear-gradient(rgb(69, 241, 112),gray);
+
+
+}
+.contact img {
+width: 70px;
+position: absolute;
+top: -20px;
+right: 0px;
+left: 0px;
+margin: auto;
+border-radius: 100px;
+
+
+}

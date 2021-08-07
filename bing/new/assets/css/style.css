@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "open sans", sans-serif;
+}
+input :focus {
+  outline: none;
+}
+textarea :focus {
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+body {
+  background-image: url(../img/bing\ back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.bing {
+  width: 1300px;
+
+  display: block;
+  margin: 0px 60px;
+}
+
+.bing img {
+  width: 200px;
+  margin: 5px 30px;
+  float: left;
+}
+
+.bing .new {
+  display: inline-block;
+  margin: 22px;
+}
+
+.bing .new a {
+  font-size: 13px;
+  color: white;
+  margin: 10px;
+}
+
+.bing .new i {
+  color: white;
+  font-size: 19px;
+  margin: 6px;
+}
+
+.bing .other {
+  display: inline-block;
+  margin: 0px 10px 10px 600px;
+}
+.bing .other a {
+  font-size: 13px;
+  color: white;
+}
+.bing .other i {
+  color: white;
+  margin: 0px 8px;
+}
+.bing .search {
+  width: 550px;
+  display: inline-block;
+  position: relative;
+
+  margin: 100px 10px 0px 400px;
+}
+.bing .search input {
+  width: 100%;
+  font-size: 19px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 100px;
+
+  position: relative;
+}
+
+.bing .search .one svg {
+  width: 23px;
+  color: rgb(9, 89, 121);
+
+  position: absolute;
+
+  top: 9px;
+  right: 120px;
+}
+
+.bing .search img {
+  width: 33px;
+  position: absolute;
+  top: 0px;
+  right: 45px;
+}
+
+.bing .search svg {
+  width: 23px;
+  position: absolute;
+  top: 8px;
+  right: 37px;
+}

@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: _Larsseit, Larsseit, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+input :focus {
+  outline: none;
+}
+
+body {
+  background-color: gray;
+}
+
+.aol {
+  width: 1780px;
+  background-color: #fff;
+  display: block;
+}
+
+.aol img {
+  width: 90px;
+  margin: 10px 50px 0px;
+}
+.aol .search {
+  width: 620px;
+
+  position: relative;
+  margin: 100px 10px 0px;
+  display: inline-block;
+}
+
+.aol .search input {
+  width: 80%;
+  font-size: 18px;
+  padding: 5px;
+  outline: none;
+  border: 1px solid black;
+  margin: 0px 5px;
+  float: left;
+}
+
+.aol .search button {
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  padding: 7px;
+  border: 1px solid rgb(241, 40, 74);
+  background-color: rgb(241, 40, 74);
+}
+
+.aol .personal {
+  width: 250px;
+
+  display: inline-block;
+  margin: 100px 50px;
+  margin-right: 0px;
+}
+.aol .personal:hover {
+  color: blue;
+}
+
+.aol .personal i {
+  font-size: 19px;
+  margin: 2px;
+  float: left;
+}
+. .aol .personal a {
+  text-decoration: none;
+  color: black;
+}
+
+.aol i {
+  font-size: 25px;
+}

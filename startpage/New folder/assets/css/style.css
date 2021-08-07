@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    font-family: Inter,Helvetica Neue,Arial,sans-serif;
+}
+input :focus {
+outline: none;
+}
+
+
+.start {
+width: 670px;
+
+margin: 70px auto 0px;
+}
+
+.start img{
+width: 50%;
+margin: 30px 150px;
+display: block;
+margin-bottom: 30px;
+}
+.start .search{
+    position: relative;
+}
+
+.start .search i {
+ position: absolute;
+top: 8px;
+right: 20px;
+font-size: 13px;
+color: #a7b8d8; ;
+cursor: pointer;
+
+}
+
+.start .search input {
+display: block;
+width: 100%;
+border: 1px solid #d0dcf3;
+border-radius: 100px;
+padding: 7px 25px;
+box-sizing: border-box;
+margin-bottom: 20px;
+outline: none;
+}
+.start h1{
+    width: 100%;
+font-size: 22px;
+font-weight: 500;
+line-height: 28px;
+margin: 10px 50px 40px;
+color: rgb(80, 61, 61);
+}
+
+.start ul li{
+font-size: 17px;
+margin: 10px 50px;
+color: rgb(78, 59, 59);
+
+
+}
+
+.start .a{
+margin: 20px;
+
+}
+
+.start .a a {
+border: 1px solid ;
+border-radius: 5px;
+color:white;
+background-color:rgb(54, 61, 158); 
+text-decoration: none;
+padding: 5px;
+box-sizing: border-box;
+margin-top: 200px;
+margin-left: 250px;
+
+}
+
+.start .a a:hover{
+color: rgb(226, 236, 238);
+background-color: rgb(181, 161, 241);
+}
+
+.start p{
+color: rgb(185, 175, 175);
+margin: 10px 110px;
+
+}

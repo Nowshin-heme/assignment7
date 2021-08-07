@@ -1,0 +1,86 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "open sans", sans-serif;
+  }
+  input :focus {
+    outline: none;
+  } 
+  textarea :focus {
+    outline: none;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  li {
+    list-style: none;
+  }
+  body { 
+    background-image: url(../img/form.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  width: 100%;
+  }
+  
+  .form {
+  width: 450px;
+  height: 350px;
+  padding: 50px;
+  background-image: linear-gradient( rgba(19, 1, 1, 0.4)  , rgba(255, 0, 13, 0.4)) ;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 120px ;
+  text-align: center;
+  }
+  
+  .form h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+   font-family: cursive;
+  color: rgb(121, 133, 16);
+  }
+  
+  .form form input ,
+  .form form textarea {
+  display: block;
+  width: 100%;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 2px solid #999;
+  font-size: 12px;
+  outline: none;
+  font-family: cursive;
+  
+  }
+  
+  
+  .form form textarea {
+  height: px;
+  
+  }
+  .form form button  {
+  padding: 10px 30px;
+  margin-top: 30px ;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  color: aliceblue;
+  background-image: linear-gradient( rgba(20, 1, 1, 0.8)  , rgba(19, 15, 9, 0.8)) ;
+  
+  }
+  .pic {
+
+
+    margin: 100px;
+
+    margin-left: 800px;
+  }

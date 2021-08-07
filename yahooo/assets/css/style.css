@@ -1,0 +1,119 @@
+/*
+css reset code start
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "open sans", sans-serif;
+}
+input :focus {
+  outline: none;
+} 
+textarea :focus {
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+
+/*
+css reset code end
+*/
+body {
+  background-color: gray;
+}
+
+.yahoo {
+  background-color: #fff;
+    padding:30px 50px ;
+}
+
+.yahoo::after {
+content:"";
+display: block; clear: both;
+}
+
+.container {
+  height: 100px;
+  margin: 0px auto;
+}
+.yahoo .container img {
+width: 250px ;
+float: left;
+margin: 4px 50px;
+}
+
+
+
+.yahoo .search {  
+  width: 40% ;  
+float: left;
+
+}
+
+
+
+.yahoo .search input {
+font-size: 18px;
+width: 70%;
+padding: 10px;
+border:1px solid #188fff ;
+border-radius: 5px 0px 0px 5px;
+float: left;
+}
+.yahoo .search button {
+font-size: 18px;
+display: inline-block;
+width: 9%;
+padding: 10px;
+border:1px solid #188fff ;
+background-color: #188fff;
+color: #fff;
+float: left;
+cursor: pointer;
+border-radius: 0px 5px 5px 0px;
+ }
+.yahoo .menu-item  {
+   width: 25%;
+display: inline-block;
+    } 
+
+ .yahoo .menu-item a {
+  color: #6001d2;
+  font-size: 12px; font-weight: bold;
+ border: 2px solid #6001d2;
+border-radius: 100px;
+padding: 7px 2px;
+float: left;
+cursor: pointer;
+ }
+ .yahoo .menu-item a:hover {
+  background-color: #6001d2;
+  color: #fff;
+}
+.yahoo .menu-item ul li:nth-child(1) img{
+width: 23px;
+padding: 9px 25px;
+float:left ;
+}
+ 
+.yahoo .menu-item ul li:nth-child(2) img {
+  width: 45px;
+  padding: 1px 5px;
+  display: inline-block;
+  
+  }
+.yahoo .menu-item ul li:nth-child(2) p{
+font-size: 12px;
+font-weight: 700;
+padding: 15px 1px;
+
+
+
+}
+

@@ -1,0 +1,104 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "open sans", sans-serif;
+  }
+  input :focus {
+    outline: none;
+  } 
+  textarea :focus {
+    outline: none;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  li {
+    list-style: none;
+  }
+.slide {
+width: 1800px;
+color: rgb(178, 230, 243);
+display: inline;
+
+}
+
+.slide .image img {
+width: 200px;
+float: left;
+margin-left: 20px;
+}
+
+.slide .search { 
+width: 490px;
+position: relative;
+
+margin: 60px;
+margin-left: 270px;
+float: left;
+
+}
+
+.slide .search input {
+width: 100%;
+font-size: 14px;
+padding: 10px;
+border: 1px solid rgb(175, 171, 171);
+border-radius: 100px;
+
+}
+
+.slide .search i {
+position: absolute;
+top: 11px;
+right: 15px;
+color: rgb(175, 171, 171) ;
+font-size: 19px;
+
+}
+
+.slide .other {
+width: 300px;
+
+
+margin: 30px ;
+margin-left: 1200px;
+margin-top: 0px;
+padding: 55px;
+}
+
+ .slide .other button {
+  font-size: 14px;
+  padding: 9px;
+  color: rgb(78, 81, 233);
+  
+
+  margin-left: 1200px;
+  display: inline;
+  border: 1px solid rgb(66, 129, 247);
+cursor: pointer;
+
+margin: 10px;
+
+  }
+.slide .other button:nth-child(1) {
+background-color:rgb(66, 129, 247) ;
+color: white;
+
+} 
+.slide .other button:nth-child(3) {
+border: 1px solid white;
+
+}
+
+.slide .other button:hover {
+color: rgb(195, 191, 253);
+
+
+}
+.slide .other button:nth-child(1):hover {
+
+background-color: rgb(129, 180, 238) ;
+
+}

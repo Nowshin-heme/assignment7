@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "open sans", sans-serif;
+}
+input :focus {
+  outline: none;
+}
+textarea :focus {
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  list-style: none;
+}
+
+.you {
+  width: 1800px;
+
+  background-color: white;
+}
+
+.you img {
+  width: 120px;
+  float: left;
+  margin: 45px 60px;
+}
+
+.you .search {
+  width: 35%;
+  float: left;
+
+  margin: 55px;
+  position: relative;
+}
+
+.you .search input {
+  width: 100%;
+  font-size: 15px;
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid rgb(187, 186, 186);
+  float: left;
+}
+.you .search button {
+  width: 10%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 1px solid rgb(187, 186, 186);
+  font-size: 15px;
+  float: left;
+}
+.you .search button i {
+  display: block;
+  color: rgb(187, 186, 186);
+}
+
+.you svg {
+  font-size: 15px;
+
+  float: left;
+  margin-top: 55px;
+  margin-left: 0px;
+}
+
+.you .bell {
+  width: 100px;
+  display: inline;
+}
